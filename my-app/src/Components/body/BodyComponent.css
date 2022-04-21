@@ -1,0 +1,96 @@
+.text {
+    border: 0;
+    font-family: Comfortaa;
+    margin-bottom: 25px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 15pt;
+    box-shadow: 0px 0px 20px 2px rgba(34, 60, 80, 0.2) inset;
+}
+
+.Background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: lightgray;
+}
+
+.Foreground {
+    margin-top: 15px;
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 5px;
+}
+.FormDiv form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.FormDivCentering {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.FormDivHead {
+    display: flex;
+    background-color: #FFE0AD;
+    width: 100%;
+    height: 20%;
+    font-family: Comfortaa;
+    font-weight: bold;
+    color: #868583;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.FormDivHead p {
+    margin-left: 20px;
+    font-size: 15pt;
+}
+.ButtonsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ButtonSave {
+    border: 0;
+    background-color: #61DBFB;
+    width: 200px;
+    border-radius: 20px;
+    font-family: Comfortaa;
+    color: white;
+    font-size: 20pt;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.ButtonSave:hover {
+    background-color: #4498ad;
+    cursor: pointer;
+    transition: background-color 100ms linear;
+}
+
+.ButtonUpload {
+    border: 0;
+    background-color: #61DBFB;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: Comfortaa;
+    color: white;
+    font-size: 20pt;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.ButtonUpload:hover {
+    background-color: #4498ad;
+    cursor: pointer;
+    transition: background-color 100ms linear;
+}
